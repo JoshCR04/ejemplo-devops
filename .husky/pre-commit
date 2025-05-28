@@ -1,7 +1,0 @@
-@"
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-npx htmlhint index.html
-npx tsc --noEmit
-"@ | Set-Content -Encoding ASCII .husky\pre-commit
