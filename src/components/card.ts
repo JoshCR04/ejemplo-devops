@@ -21,7 +21,8 @@ export class Card {
                     <button class="mr-2 text-gray-700 font-medium rounded-xl px-6 py-1 border border-gray-200">${this.btn_ver_mas}</button>
                     <button class="bg-blue-600 text-white rounded-xl px-6 py-1 hover:bg-blue-700">${this.btn_unirse_grupo}</button>
                 </div>
-          
+            </div>
+        </section>
         `   
     }
 
