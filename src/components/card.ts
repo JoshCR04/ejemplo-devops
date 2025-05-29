@@ -26,11 +26,7 @@ export class Card {
     </section>
     `;
 
-        const btn = document.getElementById('joinBtn');
-        const msg = document.getElementById('mensaje');
-        btn?.addEventListener('click', () => {
-            msg?.classList.remove('hidden');
-        });
+  
     }
 
 
